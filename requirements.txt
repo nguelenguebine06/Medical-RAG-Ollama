@@ -1,0 +1,12 @@
+Flask
+python-docx
+nltk
+sentence-transformers
+chromadb
+cachetools
+ollama
+pydantic
+matplotlib
+scikit-learn
+numpy
+pandas

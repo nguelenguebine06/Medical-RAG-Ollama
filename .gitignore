@@ -1,0 +1,42 @@
+# Environnement Python
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environnements et secrets
+.env
+.env.*
+!.env.example
+
+# Base vectorielle ChromaDB
+chroma_data/
+
+# Logs
+logs/
+*.log
+
+# Documents sources potentiellement confidentiels
+src/documents/*
+!src/documents/.gitkeep
+
+# Fichiers temporaires
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Modèles téléchargés
+*.pt
+*.pth
+*.onnx
+# Ancienne interface
+src/api/
