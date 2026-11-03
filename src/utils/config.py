@@ -34,7 +34,7 @@ class Config:
     # LLM - OLLAMA
     # =====================================
     OLLAMA_BASE_URL = "http://localhost:11434"
-    OLLAMA_MODEL = "mistral"
+    OLLAMA_MODEL = "qwen2.5:3b"
 
     # =====================================
     # RETRIEVAL
